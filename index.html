@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Virtual Try-On Room</title>
+  <style>
+    body { margin: 0; display: flex; }
+    canvas { display: block; }
+    .controls {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    button {
+      margin: 10px;
+      padding: 10px;
+      background-color: #3148a0;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.167.1/build/three.module.js",
+        "jsm/": "https://cdn.jsdelivr.net/npm/three@0.167.1/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="controls">
+    <button id="upper-clothes-btn">Upper Wear</button>
+    <button id="lower-clothes-btn">Lower Wear</button>
+    <button id="accessories-btn">Accessories</button>
+    <button id="shoes-btn">Shoes</button>
+  </div>
+
+  <!-- Load the JS script -->
+  <script type="module" src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
